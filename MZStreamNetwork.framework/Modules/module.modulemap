@@ -1,0 +1,11 @@
+framework module MZStreamNetwork {
+  umbrella header "MZStreamNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MZStreamNetwork.Swift {
+    header "MZStreamNetwork-Swift.h"
+    requires objc
+}
